@@ -1,0 +1,17 @@
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.Infrastructure.deps.json
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.Infrastructure.dll
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.Infrastructure.pdb
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.csproj.AssemblyReference.cache
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.AssemblyInfoInputs.cache
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.AssemblyInfo.cs
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.dll
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/refint/Hrm.Recruitment.Infrastructure.dll
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.pdb
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/ref/Hrm.Recruitment.Infrastructure.dll
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.Infrastructure.runtimeconfig.json
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.dll
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.pdb
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.csproj.CopyComplete
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.Infrastructure/obj/Debug/net7.0/Hrm.Recruitment.Infrastructure.genruntimeconfig.cache

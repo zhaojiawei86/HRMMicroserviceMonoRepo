@@ -1,0 +1,9 @@
+﻿<Properties StartupConfiguration="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}|http">
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.ApplicationCore FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
