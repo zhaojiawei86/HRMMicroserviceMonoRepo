@@ -1,4 +1,5 @@
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.deps.json
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.runtimeconfig.json
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.dll
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.pdb
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/Hrm.Recruitment.ApplicationCore.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/Hrm.Recruitment.ApplicationCore.dll
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/refint/Hrm.Recruitment.ApplicationCore.dll
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/Hrm.Recruitment.ApplicationCore.pdb
-/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/ref/Hrm.Recruitment.ApplicationCore.dll
-/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/bin/Debug/net7.0/Hrm.Recruitment.ApplicationCore.runtimeconfig.json
 /Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/Hrm.Recruitment.ApplicationCore.genruntimeconfig.cache
+/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.ApplicationCore/obj/Debug/net7.0/ref/Hrm.Recruitment.ApplicationCore.dll

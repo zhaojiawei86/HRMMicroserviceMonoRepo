@@ -7,14 +7,12 @@ namespace Hrm.Interview.Infrastructure.Data
 {
 	public class DapperDbContext
     {
-        private readonly IConfiguration configuration;
-        private readonly string connectionString;
         private readonly IDbConnection dbConnection;
 
-        public DapperDbContext(IConfiguration _configuration)
+        public DapperDbContext()
         {
-            configuration = _configuration;
-            connectionString = configuration.GetConnectionString("HrmInterviewDb");
+            var connectionString = "Data Source=localhost,1433;Initial Catalog=HrmInterviewDb;User Id=sa;Password=SGF86pop;TrustServerCertificate=True";
+
             dbConnection = new SqlConnection(connectionString);
         }
 
