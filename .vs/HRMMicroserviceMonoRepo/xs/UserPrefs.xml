@@ -1,11 +1,29 @@
 ﻿<Properties StartupConfiguration="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}|http">
-  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Recruitment.ApplicationCore/Entity/SubmissionStatus.cs">
+  <DisabledProjects>
+    <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Recruitment.Infrastructure/Repository/SubmissionStatusRepositoryAsync.cs">
     <Files>
-      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/Candidate.cs" Line="34" Column="1" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/SubmissionStatus.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/JobCategory.cs" Line="1" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/Candidate.cs" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/SubmissionStatus.cs" Line="19" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/JobCategory.cs" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Repository/IRepositoryAsync.cs" Line="10" Column="40" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Repository/IJobCategoryRepositoryAsync.cs" Line="10" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Repository/IJobRequirementRepositoryAsync.cs" Line="11" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Repository/ISubmissionRepositoryAsync.cs" Line="10" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Repository/ISubmissionStatusRepositoryAsync.cs" Line="10" Column="1" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/BaseRepositoryAsync.cs" Line="45" Column="10" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/CandidateRepositoryAsync.cs" Line="14" Column="3" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/JobCategoryRepositoryAsync.cs" Line="16" Column="1" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/JobRequirementRepositoryAsync.cs" Line="16" Column="2" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/CandidateRepositoryAsync (copy).cs" Line="8" Column="89" />
+      <File FileName="Hrm.Recruitment.Infrastructure/Repository/SubmissionStatusRepositoryAsync.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,12 +31,16 @@
           <Node name="HRMMicroserviceMonoRepo" expanded="True">
             <Node name="Src" expanded="True">
               <Node name="Recruitment" expanded="True">
-                <Node name="Hrm.Recruitment.ApplicationCore" expanded="True">
-                  <Node name="Entity" expanded="True">
-                    <Node name="SubmissionStatus.cs" selected="True" />
-                  </Node>
+                <Node name="Hrm.Recruitment.APILayer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Properties" expanded="True" />
                 </Node>
-                <Node name="Hrm.Recruitment.Infrastructure" expanded="True" />
+                <Node name="Hrm.Recruitment.ApplicationCore" expanded="True">
+                  <Node name="Contract" expanded="True" />
+                </Node>
+                <Node name="Hrm.Recruitment.Infrastructure" expanded="True">
+                  <Node name="Data" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -26,12 +48,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <DisabledProjects>
-    <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
