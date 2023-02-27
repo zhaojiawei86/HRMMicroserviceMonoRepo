@@ -1,4 +1,5 @@
 ﻿using System;
+using Hrm.Recruitment.ApplicationCore.Contract.Repository;
 using Hrm.Recruitment.ApplicationCore.Contract.Service;
 using Hrm.Recruitment.ApplicationCore.Entity;
 using Hrm.Recruitment.ApplicationCore.Model.Request;
@@ -9,9 +10,9 @@ namespace Hrm.Recruitment.Infrastructure.Service
 {
 	public class CandidateServiceAsync : ICandidateServiceAsync
 	{
-        private readonly CandidateRepositoryAsync candidateRepsoitoryAsync;
+        private readonly ICandidateRepositoryAsync candidateRepsoitoryAsync;
 
-        public CandidateServiceAsync(CandidateRepositoryAsync _candidateRepsoitoryAsync)
+        public CandidateServiceAsync(ICandidateRepositoryAsync _candidateRepsoitoryAsync)
 		{
             candidateRepsoitoryAsync = _candidateRepsoitoryAsync;
         }

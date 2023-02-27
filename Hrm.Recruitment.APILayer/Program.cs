@@ -33,7 +33,7 @@ builder.Services.AddScoped<ICandidateServiceAsync, CandidateServiceAsync>();
 builder.Services.AddScoped<IJobCategoryServiceAsync, JobCategoryServiceAsync>();
 builder.Services.AddScoped<IJobRequirementServiceAsync, JobRequirementServiceAsync>();
 builder.Services.AddScoped<ISubmissionServiceAsync, SubmissionServiceAsync>();
-builder.Services.AddScoped<ISubmissionStatusServiceAsync, ISubmissionStatusServiceAsync>();
+builder.Services.AddScoped<ISubmissionStatusServiceAsync, SubmissionStatusServiceAsync>();
 
 var app = builder.Build();
 

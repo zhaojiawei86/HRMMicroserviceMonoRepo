@@ -1,4 +1,5 @@
 ﻿using System;
+using Hrm.Recruitment.ApplicationCore.Contract.Repository;
 using Hrm.Recruitment.ApplicationCore.Contract.Service;
 using Hrm.Recruitment.ApplicationCore.Entity;
 using Hrm.Recruitment.ApplicationCore.Model.Request;
@@ -8,9 +9,9 @@ namespace Hrm.Recruitment.Infrastructure.Service
 {
 	public class JobRequirementServiceAsync : IJobRequirementServiceAsync
 	{
-        private readonly JobRequirementRepositoryAsync jobRequirementRepositoryAsync;
+        private readonly IJobRequirementRepositoryAsync jobRequirementRepositoryAsync;
 
-        public JobRequirementServiceAsync(JobRequirementRepositoryAsync _jobRequirementRepositoryAsync)
+        public JobRequirementServiceAsync(IJobRequirementRepositoryAsync _jobRequirementRepositoryAsync)
 		{
             jobRequirementRepositoryAsync = _jobRequirementRepositoryAsync;
         }
