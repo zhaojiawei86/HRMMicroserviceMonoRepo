@@ -17,10 +17,10 @@ builder.Services.AddSwaggerGen();
 
 //builder.Services.AddSingleton<DapperDbContext>();
 var connectionString = builder.Configuration.GetConnectionString("HrmInterviewDb");
-var dockerConnStr = Environment.GetEnvironmentVariable("HrmInterviewDbDocker");
+var dockerConnStr = Environment.GetEnvironmentVariable("HrmInterviewDb");
 builder.Services.AddDbContext<InterviewDbContext>(options =>
 {
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(dockerConnStr);
 });
 
 builder.Services.AddScoped<IInterviewTypeRepositoryAsync, InterviewTypeRepositoryAsync>();

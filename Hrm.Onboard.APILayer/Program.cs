@@ -15,11 +15,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("HrmOnboardDb");
-var dockerConnStr = Environment.GetEnvironmentVariable("HrmOnboardDbDocker");
+var dockerConnStr = Environment.GetEnvironmentVariable("HrmOnboardDb");
 builder.Services.AddDbContext<OnboardDbContext>(options =>
 {
-    options.UseSqlServer(connectionString);
-    //options.UseSqlServer(dockerConnStr);
+    //options.UseSqlServer(connectionString);
+    options.UseSqlServer(dockerConnStr);
 });
 
 // Dependency injection for repositories

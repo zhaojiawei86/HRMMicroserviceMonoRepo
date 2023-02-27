@@ -1,8 +1,29 @@
 version: '3.4'
 
 services:
+  hrm.interview.apilayer:
+    image: ${DOCKER_REGISTRY-}hrminterview
+    build:
+      context: .
+      dockerfile: Hrm.Interview.APILayer/Dockerfile
+
   hrm.recruitment.apilayer:
     image: ${DOCKER_REGISTRY-}hrmrecruitment
     build:
       context: .
       dockerfile: Hrm.Recruitment.APILayer/Dockerfile
+
+
+  hrm.onboard.apilayer:
+    image: ${DOCKER_REGISTRY-}hrmonboard
+    build:
+      context: .
+      dockerfile: Hrm.Onboard.APILayer/Dockerfile
+
+
+  hrm.authen.apilayer:
+    image: ${DOCKER_REGISTRY-}hrmauthen
+    build:
+      context: .
+      dockerfile: Hrm.Authen.APILayer/Dockerfile
+

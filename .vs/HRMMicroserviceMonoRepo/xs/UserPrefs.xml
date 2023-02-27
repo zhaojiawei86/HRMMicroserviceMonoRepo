@@ -1,80 +1,32 @@
-﻿<Properties StartupConfiguration="{E48F5880-A08C-4E84-983F-34A2BC848A45}|Default">
+﻿<Properties StartupConfiguration="{25ADA189-F241-4151-A3F9-B8A57459B0E7}|Default">
   <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Interview.APILayer/Program.cs" relfile="Hrm.Interview.APILayer/Program.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Src.Authentication.Hrm.Authen.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Authen.APILayer/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Dockerfile">
     <Files>
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Request/AccountRequestModel.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Request/RoleRequestModel.cs" Line="15" Column="12" />
-      <File FileName="Hrm.Authen.ApplicationCore/Entity/Role.cs" Line="17" Column="49" />
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Response/RoleResponseModel.cs" Line="14" Column="35" />
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Request/UserRoleRequestModel.cs" Line="17" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Entity/UserRole.cs" Line="12" Column="43" />
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Response/UserRoleResponseModel.cs" Line="11" Column="26" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Service/IServiceAsync.cs" Line="16" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Service/IAccountServiceAsync.cs" Line="12" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Service/IRoleServiceAsync.cs" Line="12" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Service/IUserRoleServiceAsync.cs" Line="12" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Service/AccountServiceAsync.cs" Line="67" Column="18" />
-      <File FileName="Hrm.Authen.ApplicationCore/Model/Response/AccountResponseModel.cs" Line="20" Column="41" />
-      <File FileName="Hrm.Authen.Infrastructure/Service/RoleServiceAsync.cs" Line="71" Column="48" />
-      <File FileName="Hrm.Authen.Infrastructure/Service/UserRoleServiceAsync.cs" Line="71" Column="44" />
-      <File FileName="Hrm.Authen.Infrastructure/Data/AuthenDbContext.cs" Line="18" Column="1" />
-      <File FileName="Hrm.Authen.APILayer/Program.cs" Line="19" Column="24" />
-      <File FileName="Hrm.Authen.APILayer/Controllers/AccountController.cs" Line="12" Column="41" />
-      <File FileName="Hrm.Authen.APILayer/Controllers/RoleController.cs" Line="12" Column="41" />
-      <File FileName="Hrm.Authen.APILayer/Controllers/UserRoleController.cs" Line="12" Column="41" />
-      <File FileName="Hrm.Authen.Infrastructure/Migrations/20230227121926_init.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Migrations/20230227121935_init2.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.APILayer/appsettings.json" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Repository/IAccountRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Repository/IRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Repository/IRoleRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Contract/Repository/IUserRoleRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.ApplicationCore/Entity/Account.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Repository/AccountRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Repository/BaseRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Repository/RoleRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.Infrastructure/Repository/UserRoleRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Authen.APILayer/Properties/launchSettings.json" Line="23" Column="30" />
+      <File FileName="Hrm.Interview.APILayer/Dockerfile" Line="17" Column="22" />
+      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="61" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HRMMicroserviceMonoRepo" expanded="True">
             <Node name="Src" expanded="True">
-              <Node name="Authentication" expanded="True">
-                <Node name="Hrm.Authen.APILayer" expanded="True">
+              <Node name="Interview" expanded="True">
+                <Node name="Hrm.Interview.APILayer" expanded="True">
                   <Node name="Controllers" expanded="True" />
-                  <Node name="Properties" expanded="True" />
-                </Node>
-                <Node name="Hrm.Authen.ApplicationCore" expanded="True">
-                  <Node name="Contract" expanded="True">
-                    <Node name="Repository" expanded="True" />
-                    <Node name="Service" expanded="True" />
-                  </Node>
-                  <Node name="Entity" expanded="True" />
-                  <Node name="Model" expanded="True">
-                    <Node name="Request" expanded="True" />
-                    <Node name="Response" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="Hrm.Authen.Infrastructure" expanded="True">
-                  <Node name="Data" expanded="True" />
-                  <Node name="Repository" expanded="True" />
-                  <Node name="Service" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Recruitment" expanded="True">
-                <Node name="Hrm.Recruitment.APILayer" expanded="True">
-                  <Node name="Controllers" expanded="True" />
+                  <Node name="Dockerfile" selected="True" />
                 </Node>
               </Node>
             </Node>
+            <Node name="docker-compose" expanded="True" />
           </Node>
         </State>
       </Pad>
