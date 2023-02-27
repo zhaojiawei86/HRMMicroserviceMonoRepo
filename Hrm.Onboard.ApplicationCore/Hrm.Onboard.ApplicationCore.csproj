@@ -15,6 +15,8 @@
     <None Remove="Contract\Repository\" />
     <None Remove="Contract\Service\" />
     <None Remove="System.Data.SqlClient" />
+    <None Remove="Model\Request\" />
+    <None Remove="Model\Response\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
@@ -30,5 +32,7 @@
     <Folder Include="Contract\" />
     <Folder Include="Contract\Repository\" />
     <Folder Include="Contract\Service\" />
+    <Folder Include="Model\Request\" />
+    <Folder Include="Model\Response\" />
   </ItemGroup>
 </Project>

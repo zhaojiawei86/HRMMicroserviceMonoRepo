@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hrm.Onboard.Infrastructure.Migrations
 {
     [DbContext(typeof(OnboardDbContext))]
-    [Migration("20230227095913_init")]
-    partial class init
+    [Migration("20230227102941_init2")]
+    partial class init2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -68,7 +68,6 @@ namespace Hrm.Onboard.Infrastructure.Migrations
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("MiddleName")
-                        .IsRequired()
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("Phone")

@@ -65,7 +65,6 @@ namespace Hrm.Onboard.Infrastructure.Migrations
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("MiddleName")
-                        .IsRequired()
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("Phone")

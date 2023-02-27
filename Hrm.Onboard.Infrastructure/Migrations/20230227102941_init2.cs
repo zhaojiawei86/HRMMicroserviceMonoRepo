@@ -61,7 +61,7 @@ namespace Hrm.Onboard.Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "varchar(20)", nullable: false),
-                    MiddleName = table.Column<string>(type: "varchar(20)", nullable: false),
+                    MiddleName = table.Column<string>(type: "varchar(20)", nullable: true),
                     LastName = table.Column<string>(type: "varchar(20)", nullable: false),
                     SSN = table.Column<string>(type: "varchar(20)", nullable: false),
                     HireDate = table.Column<DateTime>(type: "datetime2", nullable: false),

@@ -12,8 +12,8 @@ namespace Hrm.Onboard.ApplicationCore.Entity
         [Required, Column(TypeName = "varchar(20)")]
         public string FirstName { get; set; }
 
-        [Required, Column(TypeName = "varchar(20)")]
-        public string MiddleName { get; set; }
+        [Column(TypeName = "varchar(20)")]
+        public string? MiddleName { get; set; }
 
         [Required,Column(TypeName = "varchar(20)")]
         public string LastName { get; set; }

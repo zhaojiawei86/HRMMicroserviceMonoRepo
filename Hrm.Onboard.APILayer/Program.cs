@@ -1,4 +1,8 @@
-﻿using Hrm.Onboard.Infrastructure.Data;
+﻿using Hrm.Onboard.ApplicationCore.Contract.Repository;
+using Hrm.Onboard.ApplicationCore.Contract.Service;
+using Hrm.Onboard.Infrastructure.Data;
+using Hrm.Onboard.Infrastructure.Repsoitory;
+using Hrm.Onboard.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +22,17 @@ builder.Services.AddDbContext<OnboardDbContext>(options =>
     //options.UseSqlServer(dockerConnStr);
 });
 
+// Dependency injection for repositories
+builder.Services.AddScoped<IEmployeeRepositoryAsync, EmployeeRepositoryAsync>();
+builder.Services.AddScoped<IEmployeeCategoryRepositoryAsync, EmployeeCategoryRepositoryAsync>();
+builder.Services.AddScoped<IEmployeeRoleRepositoryAsync, EmployeeRoleRepositoryAsync>();
+builder.Services.AddScoped<IEmployeeStatusRepositoryAsync, EmployeeStatusRepositoryAsync>();
+
+// Dependency injection for services
+builder.Services.AddScoped<IEmployeeServiceAsync, EmployeeServiceAsync>();
+builder.Services.AddScoped<IEmployeeCategoryServiceAsync, EmployeeCategoryServiceAsync>();
+builder.Services.AddScoped<IEmployeeRoleServiceAsync, EmployeeRoleServiceAsync>();
+builder.Services.AddScoped<IEmployeeStatusServiceAsync, EmployeeStatusServiceAsync>();
 
 builder.Services.AddCors(options =>
 {
