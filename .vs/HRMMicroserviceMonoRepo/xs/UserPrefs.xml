@@ -1,35 +1,60 @@
-﻿<Properties StartupConfiguration="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}|http">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="Interview">
+  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>
     <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Recruitment.APILayer/Program.cs" relfile="Hrm.Recruitment.APILayer/Program.cs" line="8" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Recruitment.Infrastructure/Service/SubmissionStatusServiceAsync.cs">
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
+        <StartupItem ItemId="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}" ItemName="Hrm.Recruitment.APILayer" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="Interview" Name="Interview">
+      <Items>
+        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Program.cs">
     <Files>
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/CandidateServiceAsync.cs" Line="52" Column="49" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/JobCategoryServiceAsync.cs" Line="69" Column="42" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/JobCategoryResponseModel.cs" Line="14" Column="43" />
-      <File FileName="Hrm.Recruitment.APILayer/Program.cs" Line="36" Column="38" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/JobRequirementServiceAsync.cs" Line="73" Column="31" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/SubmissionServiceAsync.cs" Line="86" Column="62" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/SubmissionResponseModel.cs" Line="20" Column="52" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/SubmissionStatusServiceAsync.cs" Line="17" Column="10" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/SubmissionStatusResponseModel.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" Line="27" Column="31" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Service/ISubmissionServiceAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Service/ISubmissionStatusServiceAsync.cs" Line="1" Column="1" />
+      <File FileName="Hrm.Interview.APILayer/Controllers/InterviewTypeController.cs" />
+      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewTypeRepositoryAsync.cs" />
+      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="50" Column="1" />
+      <File FileName="Hrm.Recruitment.APILayer/Program.cs" />
+      <File FileName="Hrm.Interview.ApplicationCore/Model/Response/InterviewTypeResponseModel.cs" />
+      <File FileName="Hrm.Interview.Infrastructure/Service/InterviewTypeServiceAsync.cs" />
+      <File FileName="Hrm.Interview.ApplicationCore/Contract/Service/IServiceAsync.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HRMMicroserviceMonoRepo" expanded="True">
             <Node name="Src" expanded="True">
+              <Node name="Interview" expanded="True">
+                <Node name="Hrm.Interview.APILayer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+                <Node name="Hrm.Interview.ApplicationCore" expanded="True">
+                  <Node name="Contract" expanded="True">
+                    <Node name="Repository" expanded="True" />
+                    <Node name="Service" expanded="True" />
+                  </Node>
+                  <Node name="Entity" expanded="True" />
+                  <Node name="Model" expanded="True">
+                    <Node name="Request" expanded="True" />
+                    <Node name="Response" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Hrm.Interview.Infrastructure" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                  <Node name="Data" expanded="True" />
+                  <Node name="Repository" expanded="True" />
+                  <Node name="Service" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Recruitment" expanded="True">
                 <Node name="Hrm.Recruitment.APILayer" expanded="True">
                   <Node name="Controllers" expanded="True" />
@@ -39,11 +64,6 @@
                     <Node name="Service" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="Hrm.Recruitment.Infrastructure" expanded="True">
-                  <Node name="Service" expanded="True">
-                    <Node name="SubmissionStatusServiceAsync.cs" selected="True" />
-                  </Node>
-                </Node>
               </Node>
             </Node>
           </Node>
@@ -51,5 +71,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/Repository/InterviewTypeRepositoryAsync.cs" relfile="Hrm.Interview.Infrastructure/Repository/InterviewTypeRepositoryAsync.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
