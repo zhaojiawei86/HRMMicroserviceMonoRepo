@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace HumanResource.APILayer.Controller
+namespace Hrm.Recruitment.APILayer.Controller
+
 {
     [Route("api/[controller]")]
     [ApiController]
