@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Hrm.Interview.ApplicationCore.Contract.Service;
 using Hrm.Interview.ApplicationCore.Model.Request;
+using Hrm.Interview.Infrastructure.Service;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -66,12 +67,11 @@ namespace Hrm.Interview.APILayer.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            var item = await interviewsServiceAsync.GetByIdAsync(id);
-            if (item == null)
+            var result = await interviewsServiceAsync.DeleteAsync(id);
+            if (result == 0)
             {
-                return BadRequest(item);
+                return BadRequest();
             }
-            await interviewsServiceAsync.DeleteAsync(id);
             return Ok();
         }
     }

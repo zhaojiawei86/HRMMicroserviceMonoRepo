@@ -66,12 +66,11 @@ namespace Hrm.Interview.APILayer.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            var item = await interviewerServiceAsync.GetByIdAsync(id);
-            if (item == null)
+            var result = await interviewerServiceAsync.DeleteAsync(id);
+            if (result == 0)
             {
-                return BadRequest(item);
+                return BadRequest();
             }
-            await interviewerServiceAsync.DeleteAsync(id);
             return Ok();
         }
     }
