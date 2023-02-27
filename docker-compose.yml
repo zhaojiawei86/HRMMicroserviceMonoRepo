@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hrm.recruitment.apilayer:
+    image: ${DOCKER_REGISTRY-}hrmrecruitment
+    build:
+      context: .
+      dockerfile: Hrm.Recruitment.APILayer/Dockerfile

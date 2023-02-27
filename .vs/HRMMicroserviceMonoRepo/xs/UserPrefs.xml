@@ -1,21 +1,10 @@
-﻿<Properties StartupConfiguration="{85BC85D4-4C43-416A-88E9-6AFBC7C70966}|Default">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{85BC85D4-4C43-416A-88E9-6AFBC7C70966}" ItemName="Hrm.Authen.APILayer" ConfigurationId="Default" />
-        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
-        <StartupItem ItemId="{F20346E0-664D-46DA-BB57-2984350A6FEE}" ItemName="Hrm.Onboard.APILayer" ConfigurationId="Default" />
-        <StartupItem ItemId="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}" ItemName="Hrm.Recruitment.APILayer" ConfigurationId="http" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-    <MultiItemSolutionRunConfiguration Id="Single Project" Name="Single Project">
-      <Items>
-        <StartupItem ItemId="{85BC85D4-4C43-416A-88E9-6AFBC7C70966}" ItemName="Hrm.Authen.APILayer" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Src.Authentication.Hrm.Authen.APILayer PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{E48F5880-A08C-4E84-983F-34A2BC848A45}|Default">
+  <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Src.Authentication.Hrm.Authen.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Authen.APILayer/Program.cs">
     <Files>
       <File FileName="Hrm.Authen.ApplicationCore/Model/Request/AccountRequestModel.cs" Line="1" Column="1" />
@@ -91,11 +80,21 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{85BC85D4-4C43-416A-88E9-6AFBC7C70966}" ItemName="Hrm.Authen.APILayer" ConfigurationId="Default" />
+        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
+        <StartupItem ItemId="{F20346E0-664D-46DA-BB57-2984350A6FEE}" ItemName="Hrm.Onboard.APILayer" ConfigurationId="Default" />
+        <StartupItem ItemId="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}" ItemName="Hrm.Recruitment.APILayer" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="Single Project" Name="Single Project">
+      <Items>
+        <StartupItem ItemId="{85BC85D4-4C43-416A-88E9-6AFBC7C70966}" ItemName="Hrm.Authen.APILayer" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

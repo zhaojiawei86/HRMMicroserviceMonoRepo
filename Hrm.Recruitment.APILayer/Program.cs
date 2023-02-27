@@ -17,8 +17,8 @@ var connectionString = builder.Configuration.GetConnectionString("HrmRecruitDb")
 var dockerConnStr = Environment.GetEnvironmentVariable("HrmRecruitDb");
 builder.Services.AddDbContext<RecruitDbContext>(options =>
 {
-    options.UseSqlServer(connectionString);
-    //options.UseSqlServer(dockerConnStr);
+    //options.UseSqlServer(connectionString);
+    options.UseSqlServer(dockerConnStr);
 });
 
 // Dependency injection for repositories
