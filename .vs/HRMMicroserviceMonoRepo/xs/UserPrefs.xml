@@ -1,37 +1,50 @@
-﻿<Properties StartupConfiguration="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}|http">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer FirstBuild="True" />
+﻿<Properties StartupConfiguration="Interview">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Program.cs">
     <Files>
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/CandidateServiceAsync.cs" Line="16" Column="4" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/JobCategoryServiceAsync.cs" Line="14" Column="67" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/JobCategoryResponseModel.cs" />
-      <File FileName="Hrm.Recruitment.APILayer/Program.cs" Line="35" Column="58" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/JobRequirementServiceAsync.cs" Line="14" Column="73" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/SubmissionServiceAsync.cs" Line="15" Column="65" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/SubmissionResponseModel.cs" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Service/SubmissionStatusServiceAsync.cs" Line="18" Column="10" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Model/Response/SubmissionStatusResponseModel.cs" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Service/ISubmissionServiceAsync.cs" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Service/ISubmissionStatusServiceAsync.cs" />
-      <File FileName="Hrm.Recruitment.ApplicationCore/Contract/Service/ICandidateServiceAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Repository/BaseRepositoryAsync.cs" Line="21" Column="14" />
-      <File FileName="Hrm.Recruitment.Infrastructure/Repository/CandidateRepositoryAsync.cs" Line="1" Column="1" />
-      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" Line="47" Column="25" />
+      <File FileName="Hrm.Interview.Infrastructure/Data/InterviewDbContext.cs" Line="18" Column="39" />
+      <File FileName="Hrm.Interview.APILayer/appsettings.json" Line="10" Column="20" />
+      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="17" Column="1" />
+      <File FileName="Hrm.Recruitment.APILayer/Program.cs" Line="6" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HRMMicroserviceMonoRepo" expanded="True">
             <Node name="Src" expanded="True">
+              <Node name="Interview" expanded="True">
+                <Node name="Hrm.Interview.APILayer" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+                <Node name="Hrm.Interview.ApplicationCore" expanded="True">
+                  <Node name="Contract" expanded="True" />
+                  <Node name="Model" expanded="True" />
+                </Node>
+                <Node name="Hrm.Interview.Infrastructure" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                  <Node name="Data" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Recruitment" expanded="True">
                 <Node name="Hrm.Recruitment.APILayer" expanded="True">
-                  <Node name="Controllers" expanded="True" />
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Hrm.Recruitment.ApplicationCore" expanded="True">
+                  <Node name="Model" expanded="True">
+                    <Node name="Response" expanded="True" />
+                  </Node>
                 </Node>
                 <Node name="Hrm.Recruitment.Infrastructure" expanded="True">
-                  <Node name="Service" expanded="True" />
+                  <Node name="Data" expanded="True" />
+                  <Node name="Repository" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -43,8 +56,19 @@
   <DisabledProjects>
     <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
   </DisabledProjects>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
+        <StartupItem ItemId="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}" ItemName="Hrm.Recruitment.APILayer" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="Interview" Name="Interview">
+      <Items>
+        <StartupItem ItemId="{06D82427-7496-4267-91EE-DC2312BC12D7}" ItemName="Hrm.Interview.APILayer" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.ApplicationCore FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
