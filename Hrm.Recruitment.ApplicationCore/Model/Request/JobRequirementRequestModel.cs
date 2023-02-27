@@ -3,16 +3,16 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Hrm.Recruitment.ApplicationCore.Entity
+namespace Hrm.Recruitment.ApplicationCore.Model.Request
 {
-	public class JobRequirement
+	public class JobRequirementRequestModel
 	{
         public int Id { get; set; }
 
-        [Required, Column(TypeName = "varchar(100)")]
+        [Required]
         public string Title { get; set; }
 
-        [Required, Column(TypeName = "varchar(500)")]
+        [Required]
         public string Description { get; set; }
 
         [Required]
@@ -21,7 +21,7 @@ namespace Hrm.Recruitment.ApplicationCore.Entity
         [Required]
         public int HiringManagerId { get; set; }
 
-        [Required, Column(TypeName = "varchar(40)")]
+        [Required]
         public string HiringManagerName { get; set; }
 
         public DateTime CreatedOn { get; set; } = DateTime.Now;
@@ -34,12 +34,9 @@ namespace Hrm.Recruitment.ApplicationCore.Entity
 
         [Required]
         public bool IsActive { get; set; }
-        
+
         [Required]
         public int JobCategoryId { get; set; }
-
-        // navigational propertis
-        public JobCategory JobCategory { get; set; }
     }
 }
 
