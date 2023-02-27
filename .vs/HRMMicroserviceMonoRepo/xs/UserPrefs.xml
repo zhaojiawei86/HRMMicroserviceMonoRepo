@@ -1,9 +1,37 @@
 ﻿<Properties StartupConfiguration="{02CC8A53-BAD4-4D5C-BADE-BEC0E2CFDC1B}|http">
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Recruitment.ApplicationCore/Entity/SubmissionStatus.cs">
+    <Files>
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/Candidate.cs" Line="34" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/SubmissionStatus.cs" Line="1" Column="1" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/JobCategory.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRMMicroserviceMonoRepo" expanded="True">
+            <Node name="Src" expanded="True">
+              <Node name="Recruitment" expanded="True">
+                <Node name="Hrm.Recruitment.ApplicationCore" expanded="True">
+                  <Node name="Entity" expanded="True">
+                    <Node name="SubmissionStatus.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Hrm.Recruitment.Infrastructure" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>Hrm.Recruitment.APILayer/Hrm.Recruitment.Infrastructure/Hrm.Recruitment.Infrastructure.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.ApplicationCore FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
