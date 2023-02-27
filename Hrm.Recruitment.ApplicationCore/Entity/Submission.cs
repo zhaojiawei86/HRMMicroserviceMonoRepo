@@ -18,7 +18,6 @@ namespace Hrm.Recruitment.ApplicationCore.Entity
         [Required]
         public DateTime ConfirmedOn { get; set; }
 
-        [Required]
         public DateTime RejectedOn { get; set; }
 
         [Required]
