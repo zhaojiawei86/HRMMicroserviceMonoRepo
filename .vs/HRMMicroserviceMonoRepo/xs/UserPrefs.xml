@@ -23,29 +23,39 @@
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Controllers/InterviewerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.Infrastructure/Repository/InterviewerRepositoryAsync.cs">
     <Files>
       <File FileName="Hrm.Interview.APILayer/Dockerfile" Line="5" Column="7" />
-      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="60" Column="15" />
-      <File FileName="Hrm.Interview.Infrastructure/Data/InterviewDbContext.cs" />
-      <File FileName="Hrm.Recruitment.APILayer/Program.cs" Line="60" Column="1" />
-      <File FileName="Hrm.Interview.Infrastructure/Data/DapperDbContext.cs" Line="22" Column="1" />
-      <File FileName="Hrm.Authen.APILayer/Program.cs" Line="55" Column="15" />
+      <File FileName="Hrm.Interview.APILayer/Program.cs" />
+      <File FileName="Hrm.Interview.Infrastructure/Data/InterviewDbContext.cs" Line="12" Column="10" />
+      <File FileName="Hrm.Recruitment.APILayer/Program.cs" />
+      <File FileName="Hrm.Interview.Infrastructure/Data/DapperDbContext.cs" Line="11" Column="55" />
+      <File FileName="Hrm.Authen.APILayer/Program.cs" />
       <File FileName="Hrm.Recruitment.APILayer/Dockerfile" />
       <File FileName="Hrm.Recruitment.APILayer/appsettings.json" />
-      <File FileName="Hrm.Onboard.APILayer/Dockerfile" Line="12" Column="70" />
-      <File FileName="Hrm.Onboard.APILayer/appsettings.json" Line="11" Column="50" />
-      <File FileName="Hrm.Authen.APILayer/Dockerfile" />
-      <File FileName="Hrm.Authen.APILayer/appsettings.json" />
+      <File FileName="Hrm.Onboard.APILayer/Dockerfile" />
+      <File FileName="Hrm.Onboard.APILayer/appsettings.json" />
+      <File FileName="Hrm.Authen.APILayer/Dockerfile" Line="1" Column="1" />
+      <File FileName="Hrm.Authen.APILayer/appsettings.json" Line="11" Column="49" />
       <File FileName="docker-compose.override.yml" />
-      <File FileName="docker-compose.yml" Line="3" Column="10" />
-      <File FileName="../../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="331" Column="5" />
-      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" Line="29" Column="31" />
-      <File FileName="Hrm.Onboard.APILayer/Program.cs" Line="57" Column="15" />
-      <File FileName="Hrm.Interview.APILayer/appsettings.json" Line="1" Column="1" />
-      <File FileName="Hrm.Interview.APILayer/Controllers/InterviewerController.cs" Line="25" Column="7" />
-      <File FileName="Hrm.Interview.Infrastructure/Service/InterviewerServiceAsync.cs" Line="29" Column="1" />
-      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewerRepositoryAsync.cs" Line="34" Column="1" />
+      <File FileName="docker-compose.yml" />
+      <File FileName="../../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" />
+      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" />
+      <File FileName="Hrm.Onboard.APILayer/Program.cs" />
+      <File FileName="Hrm.Interview.APILayer/appsettings.json" Line="11" Column="26" />
+      <File FileName="Hrm.Interview.APILayer/Controllers/InterviewerController.cs" Line="24" Column="10" />
+      <File FileName="Hrm.Interview.Infrastructure/Service/InterviewerServiceAsync.cs" Line="17" Column="10" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewerRepositoryAsync.cs" Line="7" Column="1" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewFeedbackRepositoryAsync.cs" Line="14" Column="72" />
+      <File FileName="Hrm.Interview.ApplicationCore/Contract/Repository/IInterviewerRepositoryAsync.cs" Line="1" Column="1" />
+      <File FileName="Hrm.Onboard.Infrastructure/Repsoitory/BaseRepositoyAsync.cs" Line="14" Column="27" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/RecruiterRepositoryAsync.cs" Line="18" Column="58" />
+      <File FileName="Hrm.Interview.APILayer/Model/Candidate.cs" Line="8" Column="29" />
+      <File FileName="Hrm.Recruitment.ApplicationCore/Entity/Candidate.cs" Line="31" Column="47" />
+      <File FileName="Hrm.Interview.APILayer/Controllers/InterviewsController.cs" Line="27" Column="10" />
+      <File FileName="Hrm.Interview.ApplicationCore/Contract/Repository/IInterviewsRepositoryAsync.cs" Line="1" Column="1" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewsRepositoryAsync.cs" Line="14" Column="65" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewTypeRepositoryAsync.cs" Line="15" Column="74" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -58,22 +68,29 @@
               <Node name="Interview" expanded="True">
                 <Node name="Hrm.Interview.APILayer" expanded="True">
                   <Node name="Controllers" expanded="True" />
+                  <Node name="Model" expanded="True" />
                 </Node>
-                <Node name="Hrm.Interview.ApplicationCore" expanded="True" />
-                <Node name="Hrm.Interview.Infrastructure" expanded="True">
-                  <Node name="Data" expanded="True">
-                    <Node name="DapperDbContext.cs" selected="True" />
+                <Node name="Hrm.Interview.ApplicationCore" expanded="True">
+                  <Node name="Contract" expanded="True">
+                    <Node name="Repository" expanded="True" />
                   </Node>
+                </Node>
+                <Node name="Hrm.Interview.Infrastructure" expanded="True">
+                  <Node name="Data" expanded="True" />
                   <Node name="Repository" expanded="True" />
                   <Node name="Service" expanded="True" />
                 </Node>
               </Node>
               <Node name="Onboard" expanded="True">
-                <Node name="Hrm.Onboard.APILayer" expanded="True" />
+                <Node name="Hrm.Onboard.ApplicationCore" expanded="True" />
+                <Node name="Hrm.Onboard.Infrastructure" expanded="True">
+                  <Node name="Repsoitory" expanded="True" />
+                </Node>
               </Node>
               <Node name="Recruitment" expanded="True">
-                <Node name="Hrm.Recruitment.APILayer" expanded="True">
-                  <Node name="Controllers" expanded="True" />
+                <Node name="Hrm.Recruitment.ApplicationCore" expanded="True">
+                  <Node name="Entity" expanded="True" />
+                  <Node name="Model" expanded="True" />
                 </Node>
               </Node>
             </Node>

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Threading.Tasks;
+using Hrm.Interview.APILayer.Model;
 using Hrm.Interview.ApplicationCore.Contract.Service;
 using Hrm.Interview.ApplicationCore.Model.Request;
 using Hrm.Interview.Infrastructure.Service;
@@ -15,10 +17,13 @@ namespace Hrm.Interview.APILayer.Controllers
     [ApiController]
     public class RecruiterController : ControllerBase
     {
+        private readonly IConfiguration configuration;
         private readonly IRecruiterServiceAsync recruiterServiceAsync;
+        private readonly HttpClient httpClient = new HttpClient();
 
-        public RecruiterController(IRecruiterServiceAsync _recruiterServiceAsync)
+        public RecruiterController(IConfiguration _configuration,IRecruiterServiceAsync _recruiterServiceAsync)
         {
+            configuration = _configuration;
             recruiterServiceAsync = _recruiterServiceAsync;
         }
 
@@ -39,6 +44,15 @@ namespace Hrm.Interview.APILayer.Controllers
                 return BadRequest(item);
             }
             return Ok(item);
+        }
+
+        [HttpGet]
+        [Route("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(configuration.GetSection("OnboardApiUrl").Value);
+            var employeeResult = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(employeeResult);
         }
 
         [HttpPost]

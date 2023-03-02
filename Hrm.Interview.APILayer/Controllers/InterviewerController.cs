@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Hrm.Interview.APILayer.Model;
 using Hrm.Interview.ApplicationCore.Contract.Service;
 using Hrm.Interview.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,10 +18,13 @@ namespace Hrm.Interview.APILayer.Controllers
     [ApiController]
     public class InterviewerController : ControllerBase
     {
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly IConfiguration configuration;
         private readonly IInterviewerServiceAsync interviewerServiceAsync;
 
-        public InterviewerController(IInterviewerServiceAsync _interviewerServiceAsync)
+        public InterviewerController(IConfiguration _configuration, IInterviewerServiceAsync _interviewerServiceAsync)
         {
+            configuration = _configuration;
             interviewerServiceAsync = _interviewerServiceAsync;
         }
 
@@ -40,6 +45,15 @@ namespace Hrm.Interview.APILayer.Controllers
                 return BadRequest(item);
             }
             return Ok(item);
+        }
+
+        [HttpGet]
+        [Route("candidate")]
+        public async Task<IActionResult> GetCandidate()
+        {
+            httpClient.BaseAddress = new Uri(configuration.GetSection("RecruitApiUrl").Value);
+            var candidateResult = await httpClient.GetFromJsonAsync<IEnumerable<CandidateModel>>(httpClient.BaseAddress + "candidate");
+            return Ok(candidateResult);
         }
 
         [HttpPost]

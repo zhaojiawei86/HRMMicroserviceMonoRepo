@@ -16,13 +16,11 @@ namespace Hrm.Interview.APILayer.Controllers
     [ApiController]
     public class InterviewsController : ControllerBase
     {
-        private readonly HttpClient httpClient = new HttpClient();
-        private readonly IConfiguration configuration;
+        
         private readonly IInterviewsServiceAsync interviewsServiceAsync;
 
-        public InterviewsController(IConfiguration _configuration, IInterviewsServiceAsync _interviewsServiceAsync)
+        public InterviewsController(IInterviewsServiceAsync _interviewsServiceAsync)
         {
-            configuration = _configuration;
             interviewsServiceAsync = _interviewsServiceAsync;
         }
 
@@ -45,14 +43,6 @@ namespace Hrm.Interview.APILayer.Controllers
             return Ok(item);
         }
 
-        [HttpGet]
-        [Route("candidate")]
-        public async Task<IActionResult> GetCandidate()
-        {
-            httpClient.BaseAddress = new Uri(configuration.GetSection("RecruitApiUrl").Value);
-            var candidateResult = await httpClient.GetFromJsonAsync<IEnumerable<CandidateModel>>(httpClient.BaseAddress + "candidate");
-            return Ok(candidateResult);
-        }
 
         [HttpPost]
         public async Task<IActionResult> Post(InterviewsRequestModel model)

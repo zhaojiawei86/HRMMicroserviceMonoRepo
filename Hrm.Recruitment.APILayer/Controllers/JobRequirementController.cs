@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using Hrm.Recruitment.APILayer.Model;
 using Hrm.Recruitment.ApplicationCore.Contract.Service;
 using Hrm.Recruitment.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
@@ -16,10 +17,13 @@ namespace Hrm.Recruitment.APILayer.Controller
     [ApiController]
     public class JobRequirementController : ControllerBase
     {
+        private readonly IConfiguration configuration;
         private readonly IJobRequirementServiceAsync jobRequirementServiceAsync;
+        private readonly HttpClient httpClient = new HttpClient();
 
-        public JobRequirementController(IJobRequirementServiceAsync _jobRequirementServiceAsync)
+        public JobRequirementController(IConfiguration _configuration, IJobRequirementServiceAsync _jobRequirementServiceAsync)
         {
+            configuration = _configuration;
             jobRequirementServiceAsync = _jobRequirementServiceAsync;
         }
 
@@ -40,6 +44,15 @@ namespace Hrm.Recruitment.APILayer.Controller
                 return BadRequest(item);
             }
             return Ok(item);
+        }
+
+        [HttpGet]
+        [Route("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(configuration.GetSection("OnboardApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(result);
         }
 
         [HttpPost]
