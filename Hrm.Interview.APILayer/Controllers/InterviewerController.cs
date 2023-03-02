@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hrm.Interview.APILayer.Model;
 using Hrm.Interview.ApplicationCore.Contract.Service;
 using Hrm.Interview.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

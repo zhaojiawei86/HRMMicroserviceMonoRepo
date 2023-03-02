@@ -3,16 +3,20 @@ using Dapper;
 using Hrm.Interview.ApplicationCore.Contract.Repository;
 using Hrm.Interview.ApplicationCore.Entity;
 using Hrm.Interview.Infrastructure.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace Hrm.Interview.Infrastructure.Repository
 {
 	public class InterviewTypeRepositoryAsync : IInterviewTypeRepositoryAsync
 	{
         DapperDbContext dbContext;
-		public InterviewTypeRepositoryAsync()
+        private readonly IConfiguration configuration;
+
+        public InterviewTypeRepositoryAsync(IConfiguration _configuration)
 		{
-            dbContext = new DapperDbContext();
-		}
+            configuration = _configuration;
+            dbContext = new DapperDbContext(configuration);
+        }
 
  
 

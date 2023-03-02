@@ -1,38 +1,12 @@
 ﻿<Properties StartupConfiguration="{25ADA189-F241-4151-A3F9-B8A57459B0E7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jiaweizhao/Desktop/antra/assignments/HRMMicroserviceMonoRepo/Hrm.Interview.APILayer/Program.cs" relfile="Hrm.Interview.APILayer/Program.cs" line="20" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Src.Authentication.Hrm.Authen.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Dockerfile">
-    <Files>
-      <File FileName="Hrm.Interview.APILayer/Dockerfile" Line="17" Column="22" />
-      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="61" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="HRMMicroserviceMonoRepo" expanded="True">
-            <Node name="Src" expanded="True">
-              <Node name="Interview" expanded="True">
-                <Node name="Hrm.Interview.APILayer" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Dockerfile" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="docker-compose" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -48,5 +22,68 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Src.Recruitment.Hrm.Recruitment.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Src.Onboard.Hrm.Onboard.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hrm.Interview.APILayer/Controllers/InterviewerController.cs">
+    <Files>
+      <File FileName="Hrm.Interview.APILayer/Dockerfile" Line="5" Column="7" />
+      <File FileName="Hrm.Interview.APILayer/Program.cs" Line="60" Column="15" />
+      <File FileName="Hrm.Interview.Infrastructure/Data/InterviewDbContext.cs" />
+      <File FileName="Hrm.Recruitment.APILayer/Program.cs" Line="60" Column="1" />
+      <File FileName="Hrm.Interview.Infrastructure/Data/DapperDbContext.cs" Line="22" Column="1" />
+      <File FileName="Hrm.Authen.APILayer/Program.cs" Line="55" Column="15" />
+      <File FileName="Hrm.Recruitment.APILayer/Dockerfile" />
+      <File FileName="Hrm.Recruitment.APILayer/appsettings.json" />
+      <File FileName="Hrm.Onboard.APILayer/Dockerfile" Line="12" Column="70" />
+      <File FileName="Hrm.Onboard.APILayer/appsettings.json" Line="11" Column="50" />
+      <File FileName="Hrm.Authen.APILayer/Dockerfile" />
+      <File FileName="Hrm.Authen.APILayer/appsettings.json" />
+      <File FileName="docker-compose.override.yml" />
+      <File FileName="docker-compose.yml" Line="3" Column="10" />
+      <File FileName="../../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="331" Column="5" />
+      <File FileName="Hrm.Recruitment.APILayer/Controllers/CandidateController.cs" Line="29" Column="31" />
+      <File FileName="Hrm.Onboard.APILayer/Program.cs" Line="57" Column="15" />
+      <File FileName="Hrm.Interview.APILayer/appsettings.json" Line="1" Column="1" />
+      <File FileName="Hrm.Interview.APILayer/Controllers/InterviewerController.cs" Line="25" Column="7" />
+      <File FileName="Hrm.Interview.Infrastructure/Service/InterviewerServiceAsync.cs" Line="29" Column="1" />
+      <File FileName="Hrm.Interview.Infrastructure/Repository/InterviewerRepositoryAsync.cs" Line="34" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRMMicroserviceMonoRepo" expanded="True">
+            <Node name="Src" expanded="True">
+              <Node name="Authentication" expanded="True">
+                <Node name="Hrm.Authen.APILayer" expanded="True" />
+              </Node>
+              <Node name="Interview" expanded="True">
+                <Node name="Hrm.Interview.APILayer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+                <Node name="Hrm.Interview.ApplicationCore" expanded="True" />
+                <Node name="Hrm.Interview.Infrastructure" expanded="True">
+                  <Node name="Data" expanded="True">
+                    <Node name="DapperDbContext.cs" selected="True" />
+                  </Node>
+                  <Node name="Repository" expanded="True" />
+                  <Node name="Service" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Onboard" expanded="True">
+                <Node name="Hrm.Onboard.APILayer" expanded="True" />
+              </Node>
+              <Node name="Recruitment" expanded="True">
+                <Node name="Hrm.Recruitment.APILayer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

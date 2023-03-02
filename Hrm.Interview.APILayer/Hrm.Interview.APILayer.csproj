@@ -26,6 +26,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Controllers\" />
+    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hrm.Interview.ApplicationCore\Hrm.Interview.ApplicationCore.csproj">
@@ -37,5 +38,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
